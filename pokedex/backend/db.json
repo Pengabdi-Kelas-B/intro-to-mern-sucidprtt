@@ -2,403 +2,2369 @@
     "pokemon": [
         {
             "name": "bulbasaur",
-            "url": "https://pokeapi.co/api/v2/pokemon/1/"
+            "id": 1,
+            "height": 7,
+            "weight": 69,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "abilities": [
+                "overgrow",
+                "chlorophyll"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/1.ogg"
+            },
+            "evolutionChains": [
+                "bulbasaur",
+                "ivysaur",
+                "venusaur"
+            ]
         },
         {
             "name": "ivysaur",
-            "url": "https://pokeapi.co/api/v2/pokemon/2/"
+            "id": 2,
+            "height": 10,
+            "weight": 130,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "abilities": [
+                "overgrow",
+                "chlorophyll"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/2.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/2.ogg"
+            },
+            "evolutionChains": [
+                "bulbasaur",
+                "ivysaur",
+                "venusaur"
+            ]
         },
         {
             "name": "venusaur",
-            "url": "https://pokeapi.co/api/v2/pokemon/3/"
+            "id": 3,
+            "height": 20,
+            "weight": 1000,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "abilities": [
+                "overgrow",
+                "chlorophyll"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/3.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/3.ogg"
+            },
+            "evolutionChains": [
+                "bulbasaur",
+                "ivysaur",
+                "venusaur"
+            ]
         },
         {
             "name": "charmander",
-            "url": "https://pokeapi.co/api/v2/pokemon/4/"
+            "id": 4,
+            "height": 6,
+            "weight": 85,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+            "types": [
+                "fire"
+            ],
+            "abilities": [
+                "blaze",
+                "solar-power"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/4.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/4.ogg"
+            },
+            "evolutionChains": [
+                "charmander",
+                "charmeleon",
+                "charizard"
+            ]
         },
         {
             "name": "charmeleon",
-            "url": "https://pokeapi.co/api/v2/pokemon/5/"
+            "id": 5,
+            "height": 11,
+            "weight": 190,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+            "types": [
+                "fire"
+            ],
+            "abilities": [
+                "blaze",
+                "solar-power"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/5.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/5.ogg"
+            },
+            "evolutionChains": [
+                "charmander",
+                "charmeleon",
+                "charizard"
+            ]
         },
         {
             "name": "charizard",
-            "url": "https://pokeapi.co/api/v2/pokemon/6/"
+            "id": 6,
+            "height": 17,
+            "weight": 905,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+            "types": [
+                "fire",
+                "flying"
+            ],
+            "abilities": [
+                "blaze",
+                "solar-power"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/6.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/6.ogg"
+            },
+            "evolutionChains": [
+                "charmander",
+                "charmeleon",
+                "charizard"
+            ]
         },
         {
             "name": "squirtle",
-            "url": "https://pokeapi.co/api/v2/pokemon/7/"
+            "id": 7,
+            "height": 5,
+            "weight": 90,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+            "types": [
+                "water"
+            ],
+            "abilities": [
+                "torrent",
+                "rain-dish"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/7.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/7.ogg"
+            },
+            "evolutionChains": [
+                "squirtle",
+                "wartortle",
+                "blastoise"
+            ]
         },
         {
             "name": "wartortle",
-            "url": "https://pokeapi.co/api/v2/pokemon/8/"
+            "id": 8,
+            "height": 10,
+            "weight": 225,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+            "types": [
+                "water"
+            ],
+            "abilities": [
+                "torrent",
+                "rain-dish"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/8.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/8.ogg"
+            },
+            "evolutionChains": [
+                "squirtle",
+                "wartortle",
+                "blastoise"
+            ]
         },
         {
             "name": "blastoise",
-            "url": "https://pokeapi.co/api/v2/pokemon/9/"
+            "id": 9,
+            "height": 16,
+            "weight": 855,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+            "types": [
+                "water"
+            ],
+            "abilities": [
+                "torrent",
+                "rain-dish"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/9.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/9.ogg"
+            },
+            "evolutionChains": [
+                "squirtle",
+                "wartortle",
+                "blastoise"
+            ]
         },
         {
             "name": "caterpie",
-            "url": "https://pokeapi.co/api/v2/pokemon/10/"
+            "id": 10,
+            "height": 3,
+            "weight": 29,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+            "types": [
+                "bug"
+            ],
+            "abilities": [
+                "shield-dust",
+                "run-away"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/10.ogg"
+            },
+            "evolutionChains": [
+                "caterpie",
+                "metapod",
+                "butterfree"
+            ]
         },
         {
             "name": "metapod",
-            "url": "https://pokeapi.co/api/v2/pokemon/11/"
+            "id": 11,
+            "height": 7,
+            "weight": 99,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+            "types": [
+                "bug"
+            ],
+            "abilities": [
+                "shed-skin"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/11.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/11.ogg"
+            },
+            "evolutionChains": [
+                "caterpie",
+                "metapod",
+                "butterfree"
+            ]
         },
         {
             "name": "butterfree",
-            "url": "https://pokeapi.co/api/v2/pokemon/12/"
+            "id": 12,
+            "height": 11,
+            "weight": 320,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+            "types": [
+                "bug",
+                "flying"
+            ],
+            "abilities": [
+                "compound-eyes",
+                "tinted-lens"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/12.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/12.ogg"
+            },
+            "evolutionChains": [
+                "caterpie",
+                "metapod",
+                "butterfree"
+            ]
         },
         {
             "name": "weedle",
-            "url": "https://pokeapi.co/api/v2/pokemon/13/"
+            "id": 13,
+            "height": 3,
+            "weight": 32,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
+            "types": [
+                "bug",
+                "poison"
+            ],
+            "abilities": [
+                "shield-dust",
+                "run-away"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/13.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/13.ogg"
+            },
+            "evolutionChains": [
+                "weedle",
+                "kakuna",
+                "beedrill"
+            ]
         },
         {
             "name": "kakuna",
-            "url": "https://pokeapi.co/api/v2/pokemon/14/"
+            "id": 14,
+            "height": 6,
+            "weight": 100,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
+            "types": [
+                "bug",
+                "poison"
+            ],
+            "abilities": [
+                "shed-skin"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/14.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/14.ogg"
+            },
+            "evolutionChains": [
+                "weedle",
+                "kakuna",
+                "beedrill"
+            ]
         },
         {
             "name": "beedrill",
-            "url": "https://pokeapi.co/api/v2/pokemon/15/"
+            "id": 15,
+            "height": 10,
+            "weight": 295,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
+            "types": [
+                "bug",
+                "poison"
+            ],
+            "abilities": [
+                "swarm",
+                "sniper"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/15.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/15.ogg"
+            },
+            "evolutionChains": [
+                "weedle",
+                "kakuna",
+                "beedrill"
+            ]
         },
         {
             "name": "pidgey",
-            "url": "https://pokeapi.co/api/v2/pokemon/16/"
+            "id": 16,
+            "height": 3,
+            "weight": 18,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+            "types": [
+                "normal",
+                "flying"
+            ],
+            "abilities": [
+                "keen-eye",
+                "tangled-feet",
+                "big-pecks"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/16.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/16.ogg"
+            },
+            "evolutionChains": [
+                "pidgey",
+                "pidgeotto",
+                "pidgeot"
+            ]
         },
         {
             "name": "pidgeotto",
-            "url": "https://pokeapi.co/api/v2/pokemon/17/"
+            "id": 17,
+            "height": 11,
+            "weight": 300,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+            "types": [
+                "normal",
+                "flying"
+            ],
+            "abilities": [
+                "keen-eye",
+                "tangled-feet",
+                "big-pecks"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/17.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/17.ogg"
+            },
+            "evolutionChains": [
+                "pidgey",
+                "pidgeotto",
+                "pidgeot"
+            ]
         },
         {
             "name": "pidgeot",
-            "url": "https://pokeapi.co/api/v2/pokemon/18/"
+            "id": 18,
+            "height": 15,
+            "weight": 395,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
+            "types": [
+                "normal",
+                "flying"
+            ],
+            "abilities": [
+                "keen-eye",
+                "tangled-feet",
+                "big-pecks"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/18.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/18.ogg"
+            },
+            "evolutionChains": [
+                "pidgey",
+                "pidgeotto",
+                "pidgeot"
+            ]
         },
         {
             "name": "rattata",
-            "url": "https://pokeapi.co/api/v2/pokemon/19/"
+            "id": 19,
+            "height": 3,
+            "weight": 35,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
+            "types": [
+                "normal"
+            ],
+            "abilities": [
+                "run-away",
+                "guts",
+                "hustle"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/19.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/19.ogg"
+            },
+            "evolutionChains": [
+                "rattata",
+                "raticate"
+            ]
         },
         {
             "name": "raticate",
-            "url": "https://pokeapi.co/api/v2/pokemon/20/"
+            "id": 20,
+            "height": 7,
+            "weight": 185,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
+            "types": [
+                "normal"
+            ],
+            "abilities": [
+                "run-away",
+                "guts",
+                "hustle"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/20.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/20.ogg"
+            },
+            "evolutionChains": [
+                "rattata",
+                "raticate"
+            ]
         },
         {
             "name": "spearow",
-            "url": "https://pokeapi.co/api/v2/pokemon/21/"
+            "id": 21,
+            "height": 3,
+            "weight": 20,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
+            "types": [
+                "normal",
+                "flying"
+            ],
+            "abilities": [
+                "keen-eye",
+                "sniper"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/21.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/21.ogg"
+            },
+            "evolutionChains": [
+                "spearow",
+                "fearow"
+            ]
         },
         {
             "name": "fearow",
-            "url": "https://pokeapi.co/api/v2/pokemon/22/"
+            "id": 22,
+            "height": 12,
+            "weight": 380,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
+            "types": [
+                "normal",
+                "flying"
+            ],
+            "abilities": [
+                "keen-eye",
+                "sniper"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/22.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/22.ogg"
+            },
+            "evolutionChains": [
+                "spearow",
+                "fearow"
+            ]
         },
         {
             "name": "ekans",
-            "url": "https://pokeapi.co/api/v2/pokemon/23/"
+            "id": 23,
+            "height": 20,
+            "weight": 69,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
+            "types": [
+                "poison"
+            ],
+            "abilities": [
+                "intimidate",
+                "shed-skin",
+                "unnerve"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/23.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/23.ogg"
+            },
+            "evolutionChains": [
+                "ekans",
+                "arbok"
+            ]
         },
         {
             "name": "arbok",
-            "url": "https://pokeapi.co/api/v2/pokemon/24/"
+            "id": 24,
+            "height": 35,
+            "weight": 650,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
+            "types": [
+                "poison"
+            ],
+            "abilities": [
+                "intimidate",
+                "shed-skin",
+                "unnerve"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/24.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/24.ogg"
+            },
+            "evolutionChains": [
+                "ekans",
+                "arbok"
+            ]
         },
         {
             "name": "pikachu",
-            "url": "https://pokeapi.co/api/v2/pokemon/25/"
+            "id": 25,
+            "height": 4,
+            "weight": 60,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+            "types": [
+                "electric"
+            ],
+            "abilities": [
+                "static",
+                "lightning-rod"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/25.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/25.ogg"
+            },
+            "evolutionChains": [
+                "pichu",
+                "pikachu",
+                "raichu"
+            ]
         },
         {
             "name": "raichu",
-            "url": "https://pokeapi.co/api/v2/pokemon/26/"
+            "id": 26,
+            "height": 8,
+            "weight": 300,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
+            "types": [
+                "electric"
+            ],
+            "abilities": [
+                "static",
+                "lightning-rod"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/26.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/26.ogg"
+            },
+            "evolutionChains": [
+                "pichu",
+                "pikachu",
+                "raichu"
+            ]
         },
         {
             "name": "sandshrew",
-            "url": "https://pokeapi.co/api/v2/pokemon/27/"
+            "id": 27,
+            "height": 6,
+            "weight": 120,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
+            "types": [
+                "ground"
+            ],
+            "abilities": [
+                "sand-veil",
+                "sand-rush"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/27.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/27.ogg"
+            },
+            "evolutionChains": [
+                "sandshrew",
+                "sandslash"
+            ]
         },
         {
             "name": "sandslash",
-            "url": "https://pokeapi.co/api/v2/pokemon/28/"
+            "id": 28,
+            "height": 10,
+            "weight": 295,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
+            "types": [
+                "ground"
+            ],
+            "abilities": [
+                "sand-veil",
+                "sand-rush"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/28.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/28.ogg"
+            },
+            "evolutionChains": [
+                "sandshrew",
+                "sandslash"
+            ]
         },
         {
             "name": "nidoran-f",
-            "url": "https://pokeapi.co/api/v2/pokemon/29/"
+            "id": 29,
+            "height": 4,
+            "weight": 70,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
+            "types": [
+                "poison"
+            ],
+            "abilities": [
+                "poison-point",
+                "rivalry",
+                "hustle"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/29.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/29.ogg"
+            },
+            "evolutionChains": [
+                "nidoran-f",
+                "nidorina",
+                "nidoqueen"
+            ]
         },
         {
             "name": "nidorina",
-            "url": "https://pokeapi.co/api/v2/pokemon/30/"
+            "id": 30,
+            "height": 8,
+            "weight": 200,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
+            "types": [
+                "poison"
+            ],
+            "abilities": [
+                "poison-point",
+                "rivalry",
+                "hustle"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/30.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/30.ogg"
+            },
+            "evolutionChains": [
+                "nidoran-f",
+                "nidorina",
+                "nidoqueen"
+            ]
         },
         {
             "name": "nidoqueen",
-            "url": "https://pokeapi.co/api/v2/pokemon/31/"
+            "id": 31,
+            "height": 13,
+            "weight": 600,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
+            "types": [
+                "poison",
+                "ground"
+            ],
+            "abilities": [
+                "poison-point",
+                "rivalry",
+                "sheer-force"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/31.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/31.ogg"
+            },
+            "evolutionChains": [
+                "nidoran-f",
+                "nidorina",
+                "nidoqueen"
+            ]
         },
         {
             "name": "nidoran-m",
-            "url": "https://pokeapi.co/api/v2/pokemon/32/"
+            "id": 32,
+            "height": 5,
+            "weight": 90,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
+            "types": [
+                "poison"
+            ],
+            "abilities": [
+                "poison-point",
+                "rivalry",
+                "hustle"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/32.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/32.ogg"
+            },
+            "evolutionChains": [
+                "nidoran-m",
+                "nidorino",
+                "nidoking"
+            ]
         },
         {
             "name": "nidorino",
-            "url": "https://pokeapi.co/api/v2/pokemon/33/"
+            "id": 33,
+            "height": 9,
+            "weight": 195,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
+            "types": [
+                "poison"
+            ],
+            "abilities": [
+                "poison-point",
+                "rivalry",
+                "hustle"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/33.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/33.ogg"
+            },
+            "evolutionChains": [
+                "nidoran-m",
+                "nidorino",
+                "nidoking"
+            ]
         },
         {
             "name": "nidoking",
-            "url": "https://pokeapi.co/api/v2/pokemon/34/"
+            "id": 34,
+            "height": 14,
+            "weight": 620,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
+            "types": [
+                "poison",
+                "ground"
+            ],
+            "abilities": [
+                "poison-point",
+                "rivalry",
+                "sheer-force"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/34.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/34.ogg"
+            },
+            "evolutionChains": [
+                "nidoran-m",
+                "nidorino",
+                "nidoking"
+            ]
         },
         {
             "name": "clefairy",
-            "url": "https://pokeapi.co/api/v2/pokemon/35/"
+            "id": 35,
+            "height": 6,
+            "weight": 75,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
+            "types": [
+                "fairy"
+            ],
+            "abilities": [
+                "cute-charm",
+                "magic-guard",
+                "friend-guard"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/35.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/35.ogg"
+            },
+            "evolutionChains": [
+                "cleffa",
+                "clefairy",
+                "clefable"
+            ]
         },
         {
             "name": "clefable",
-            "url": "https://pokeapi.co/api/v2/pokemon/36/"
+            "id": 36,
+            "height": 13,
+            "weight": 400,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
+            "types": [
+                "fairy"
+            ],
+            "abilities": [
+                "cute-charm",
+                "magic-guard",
+                "unaware"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/36.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/36.ogg"
+            },
+            "evolutionChains": [
+                "cleffa",
+                "clefairy",
+                "clefable"
+            ]
         },
         {
             "name": "vulpix",
-            "url": "https://pokeapi.co/api/v2/pokemon/37/"
+            "id": 37,
+            "height": 6,
+            "weight": 99,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
+            "types": [
+                "fire"
+            ],
+            "abilities": [
+                "flash-fire",
+                "drought"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/37.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/37.ogg"
+            },
+            "evolutionChains": [
+                "vulpix",
+                "ninetales"
+            ]
         },
         {
             "name": "ninetales",
-            "url": "https://pokeapi.co/api/v2/pokemon/38/"
+            "id": 38,
+            "height": 11,
+            "weight": 199,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
+            "types": [
+                "fire"
+            ],
+            "abilities": [
+                "flash-fire",
+                "drought"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/38.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/38.ogg"
+            },
+            "evolutionChains": [
+                "vulpix",
+                "ninetales"
+            ]
         },
         {
             "name": "jigglypuff",
-            "url": "https://pokeapi.co/api/v2/pokemon/39/"
+            "id": 39,
+            "height": 5,
+            "weight": 55,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+            "types": [
+                "normal",
+                "fairy"
+            ],
+            "abilities": [
+                "cute-charm",
+                "competitive",
+                "friend-guard"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/39.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/39.ogg"
+            },
+            "evolutionChains": [
+                "igglybuff",
+                "jigglypuff",
+                "wigglytuff"
+            ]
         },
         {
             "name": "wigglytuff",
-            "url": "https://pokeapi.co/api/v2/pokemon/40/"
+            "id": 40,
+            "height": 10,
+            "weight": 120,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
+            "types": [
+                "normal",
+                "fairy"
+            ],
+            "abilities": [
+                "cute-charm",
+                "competitive",
+                "frisk"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/40.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/40.ogg"
+            },
+            "evolutionChains": [
+                "igglybuff",
+                "jigglypuff",
+                "wigglytuff"
+            ]
         },
         {
             "name": "zubat",
-            "url": "https://pokeapi.co/api/v2/pokemon/41/"
+            "id": 41,
+            "height": 8,
+            "weight": 75,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
+            "types": [
+                "poison",
+                "flying"
+            ],
+            "abilities": [
+                "inner-focus",
+                "infiltrator"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/41.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/41.ogg"
+            },
+            "evolutionChains": [
+                "zubat",
+                "golbat",
+                "crobat"
+            ]
         },
         {
             "name": "golbat",
-            "url": "https://pokeapi.co/api/v2/pokemon/42/"
+            "id": 42,
+            "height": 16,
+            "weight": 550,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
+            "types": [
+                "poison",
+                "flying"
+            ],
+            "abilities": [
+                "inner-focus",
+                "infiltrator"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/42.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/42.ogg"
+            },
+            "evolutionChains": [
+                "zubat",
+                "golbat",
+                "crobat"
+            ]
         },
         {
             "name": "oddish",
-            "url": "https://pokeapi.co/api/v2/pokemon/43/"
+            "id": 43,
+            "height": 5,
+            "weight": 54,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "abilities": [
+                "chlorophyll",
+                "run-away"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/43.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/43.ogg"
+            },
+            "evolutionChains": [
+                "oddish",
+                "gloom",
+                "vileplume"
+            ]
         },
         {
             "name": "gloom",
-            "url": "https://pokeapi.co/api/v2/pokemon/44/"
+            "id": 44,
+            "height": 8,
+            "weight": 86,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "abilities": [
+                "chlorophyll",
+                "stench"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/44.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/44.ogg"
+            },
+            "evolutionChains": [
+                "oddish",
+                "gloom",
+                "vileplume"
+            ]
         },
         {
             "name": "vileplume",
-            "url": "https://pokeapi.co/api/v2/pokemon/45/"
+            "id": 45,
+            "height": 12,
+            "weight": 186,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "abilities": [
+                "chlorophyll",
+                "effect-spore"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/45.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/45.ogg"
+            },
+            "evolutionChains": [
+                "oddish",
+                "gloom",
+                "vileplume"
+            ]
         },
         {
             "name": "paras",
-            "url": "https://pokeapi.co/api/v2/pokemon/46/"
+            "id": 46,
+            "height": 3,
+            "weight": 54,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
+            "types": [
+                "bug",
+                "grass"
+            ],
+            "abilities": [
+                "effect-spore",
+                "dry-skin",
+                "damp"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/46.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/46.ogg"
+            },
+            "evolutionChains": [
+                "paras",
+                "parasect"
+            ]
         },
         {
             "name": "parasect",
-            "url": "https://pokeapi.co/api/v2/pokemon/47/"
+            "id": 47,
+            "height": 10,
+            "weight": 295,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
+            "types": [
+                "bug",
+                "grass"
+            ],
+            "abilities": [
+                "effect-spore",
+                "dry-skin",
+                "damp"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/47.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/47.ogg"
+            },
+            "evolutionChains": [
+                "paras",
+                "parasect"
+            ]
         },
         {
             "name": "venonat",
-            "url": "https://pokeapi.co/api/v2/pokemon/48/"
+            "id": 48,
+            "height": 10,
+            "weight": 300,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
+            "types": [
+                "bug",
+                "poison"
+            ],
+            "abilities": [
+                "compound-eyes",
+                "tinted-lens",
+                "run-away"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/48.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/48.ogg"
+            },
+            "evolutionChains": [
+                "venonat",
+                "venomoth"
+            ]
         },
         {
             "name": "venomoth",
-            "url": "https://pokeapi.co/api/v2/pokemon/49/"
+            "id": 49,
+            "height": 15,
+            "weight": 125,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
+            "types": [
+                "bug",
+                "poison"
+            ],
+            "abilities": [
+                "shield-dust",
+                "tinted-lens",
+                "wonder-skin"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/49.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/49.ogg"
+            },
+            "evolutionChains": [
+                "venonat",
+                "venomoth"
+            ]
         },
         {
             "name": "diglett",
-            "url": "https://pokeapi.co/api/v2/pokemon/50/"
+            "id": 50,
+            "height": 2,
+            "weight": 8,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
+            "types": [
+                "ground"
+            ],
+            "abilities": [
+                "sand-veil",
+                "arena-trap",
+                "sand-force"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/50.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/50.ogg"
+            },
+            "evolutionChains": [
+                "diglett",
+                "dugtrio"
+            ]
         },
         {
             "name": "dugtrio",
-            "url": "https://pokeapi.co/api/v2/pokemon/51/"
+            "id": 51,
+            "height": 7,
+            "weight": 333,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
+            "types": [
+                "ground"
+            ],
+            "abilities": [
+                "sand-veil",
+                "arena-trap",
+                "sand-force"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/51.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/51.ogg"
+            },
+            "evolutionChains": [
+                "diglett",
+                "dugtrio"
+            ]
         },
         {
             "name": "meowth",
-            "url": "https://pokeapi.co/api/v2/pokemon/52/"
+            "id": 52,
+            "height": 4,
+            "weight": 42,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
+            "types": [
+                "normal"
+            ],
+            "abilities": [
+                "pickup",
+                "technician",
+                "unnerve"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/52.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/52.ogg"
+            },
+            "evolutionChains": [
+                "meowth",
+                "persian"
+            ]
         },
         {
             "name": "persian",
-            "url": "https://pokeapi.co/api/v2/pokemon/53/"
+            "id": 53,
+            "height": 10,
+            "weight": 320,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
+            "types": [
+                "normal"
+            ],
+            "abilities": [
+                "limber",
+                "technician",
+                "unnerve"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/53.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/53.ogg"
+            },
+            "evolutionChains": [
+                "meowth",
+                "persian"
+            ]
         },
         {
             "name": "psyduck",
-            "url": "https://pokeapi.co/api/v2/pokemon/54/"
+            "id": 54,
+            "height": 8,
+            "weight": 196,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
+            "types": [
+                "water"
+            ],
+            "abilities": [
+                "damp",
+                "cloud-nine",
+                "swift-swim"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/54.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/54.ogg"
+            },
+            "evolutionChains": [
+                "psyduck",
+                "golduck"
+            ]
         },
         {
             "name": "golduck",
-            "url": "https://pokeapi.co/api/v2/pokemon/55/"
+            "id": 55,
+            "height": 17,
+            "weight": 766,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
+            "types": [
+                "water"
+            ],
+            "abilities": [
+                "damp",
+                "cloud-nine",
+                "swift-swim"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/55.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/55.ogg"
+            },
+            "evolutionChains": [
+                "psyduck",
+                "golduck"
+            ]
         },
         {
             "name": "mankey",
-            "url": "https://pokeapi.co/api/v2/pokemon/56/"
+            "id": 56,
+            "height": 5,
+            "weight": 280,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
+            "types": [
+                "fighting"
+            ],
+            "abilities": [
+                "vital-spirit",
+                "anger-point",
+                "defiant"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/56.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/56.ogg"
+            },
+            "evolutionChains": [
+                "mankey",
+                "primeape",
+                "annihilape"
+            ]
         },
         {
             "name": "primeape",
-            "url": "https://pokeapi.co/api/v2/pokemon/57/"
+            "id": 57,
+            "height": 10,
+            "weight": 320,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
+            "types": [
+                "fighting"
+            ],
+            "abilities": [
+                "vital-spirit",
+                "anger-point",
+                "defiant"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/57.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/57.ogg"
+            },
+            "evolutionChains": [
+                "mankey",
+                "primeape",
+                "annihilape"
+            ]
         },
         {
             "name": "growlithe",
-            "url": "https://pokeapi.co/api/v2/pokemon/58/"
+            "id": 58,
+            "height": 7,
+            "weight": 190,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
+            "types": [
+                "fire"
+            ],
+            "abilities": [
+                "intimidate",
+                "flash-fire",
+                "justified"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/58.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/58.ogg"
+            },
+            "evolutionChains": [
+                "growlithe",
+                "arcanine"
+            ]
         },
         {
             "name": "arcanine",
-            "url": "https://pokeapi.co/api/v2/pokemon/59/"
+            "id": 59,
+            "height": 19,
+            "weight": 1550,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
+            "types": [
+                "fire"
+            ],
+            "abilities": [
+                "intimidate",
+                "flash-fire",
+                "justified"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/59.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/59.ogg"
+            },
+            "evolutionChains": [
+                "growlithe",
+                "arcanine"
+            ]
         },
         {
             "name": "poliwag",
-            "url": "https://pokeapi.co/api/v2/pokemon/60/"
+            "id": 60,
+            "height": 6,
+            "weight": 124,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
+            "types": [
+                "water"
+            ],
+            "abilities": [
+                "water-absorb",
+                "damp",
+                "swift-swim"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/60.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/60.ogg"
+            },
+            "evolutionChains": [
+                "poliwag",
+                "poliwhirl",
+                "poliwrath"
+            ]
         },
         {
             "name": "poliwhirl",
-            "url": "https://pokeapi.co/api/v2/pokemon/61/"
+            "id": 61,
+            "height": 10,
+            "weight": 200,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
+            "types": [
+                "water"
+            ],
+            "abilities": [
+                "water-absorb",
+                "damp",
+                "swift-swim"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/61.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/61.ogg"
+            },
+            "evolutionChains": [
+                "poliwag",
+                "poliwhirl",
+                "poliwrath"
+            ]
         },
         {
             "name": "poliwrath",
-            "url": "https://pokeapi.co/api/v2/pokemon/62/"
+            "id": 62,
+            "height": 13,
+            "weight": 540,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
+            "types": [
+                "water",
+                "fighting"
+            ],
+            "abilities": [
+                "water-absorb",
+                "damp",
+                "swift-swim"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/62.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/62.ogg"
+            },
+            "evolutionChains": [
+                "poliwag",
+                "poliwhirl",
+                "poliwrath"
+            ]
         },
         {
             "name": "abra",
-            "url": "https://pokeapi.co/api/v2/pokemon/63/"
+            "id": 63,
+            "height": 9,
+            "weight": 195,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
+            "types": [
+                "psychic"
+            ],
+            "abilities": [
+                "synchronize",
+                "inner-focus",
+                "magic-guard"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/63.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/63.ogg"
+            },
+            "evolutionChains": [
+                "abra",
+                "kadabra",
+                "alakazam"
+            ]
         },
         {
             "name": "kadabra",
-            "url": "https://pokeapi.co/api/v2/pokemon/64/"
+            "id": 64,
+            "height": 13,
+            "weight": 565,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
+            "types": [
+                "psychic"
+            ],
+            "abilities": [
+                "synchronize",
+                "inner-focus",
+                "magic-guard"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/64.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/64.ogg"
+            },
+            "evolutionChains": [
+                "abra",
+                "kadabra",
+                "alakazam"
+            ]
         },
         {
             "name": "alakazam",
-            "url": "https://pokeapi.co/api/v2/pokemon/65/"
+            "id": 65,
+            "height": 15,
+            "weight": 480,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
+            "types": [
+                "psychic"
+            ],
+            "abilities": [
+                "synchronize",
+                "inner-focus",
+                "magic-guard"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/65.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/65.ogg"
+            },
+            "evolutionChains": [
+                "abra",
+                "kadabra",
+                "alakazam"
+            ]
         },
         {
             "name": "machop",
-            "url": "https://pokeapi.co/api/v2/pokemon/66/"
+            "id": 66,
+            "height": 8,
+            "weight": 195,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
+            "types": [
+                "fighting"
+            ],
+            "abilities": [
+                "guts",
+                "no-guard",
+                "steadfast"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/66.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/66.ogg"
+            },
+            "evolutionChains": [
+                "machop",
+                "machoke",
+                "machamp"
+            ]
         },
         {
             "name": "machoke",
-            "url": "https://pokeapi.co/api/v2/pokemon/67/"
+            "id": 67,
+            "height": 15,
+            "weight": 705,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
+            "types": [
+                "fighting"
+            ],
+            "abilities": [
+                "guts",
+                "no-guard",
+                "steadfast"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/67.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/67.ogg"
+            },
+            "evolutionChains": [
+                "machop",
+                "machoke",
+                "machamp"
+            ]
         },
         {
             "name": "machamp",
-            "url": "https://pokeapi.co/api/v2/pokemon/68/"
+            "id": 68,
+            "height": 16,
+            "weight": 1300,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
+            "types": [
+                "fighting"
+            ],
+            "abilities": [
+                "guts",
+                "no-guard",
+                "steadfast"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/68.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/68.ogg"
+            },
+            "evolutionChains": [
+                "machop",
+                "machoke",
+                "machamp"
+            ]
         },
         {
             "name": "bellsprout",
-            "url": "https://pokeapi.co/api/v2/pokemon/69/"
+            "id": 69,
+            "height": 7,
+            "weight": 40,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "abilities": [
+                "chlorophyll",
+                "gluttony"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/69.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/69.ogg"
+            },
+            "evolutionChains": [
+                "bellsprout",
+                "weepinbell",
+                "victreebel"
+            ]
         },
         {
             "name": "weepinbell",
-            "url": "https://pokeapi.co/api/v2/pokemon/70/"
+            "id": 70,
+            "height": 10,
+            "weight": 64,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "abilities": [
+                "chlorophyll",
+                "gluttony"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/70.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/70.ogg"
+            },
+            "evolutionChains": [
+                "bellsprout",
+                "weepinbell",
+                "victreebel"
+            ]
         },
         {
             "name": "victreebel",
-            "url": "https://pokeapi.co/api/v2/pokemon/71/"
+            "id": 71,
+            "height": 17,
+            "weight": 155,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "abilities": [
+                "chlorophyll",
+                "gluttony"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/71.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/71.ogg"
+            },
+            "evolutionChains": [
+                "bellsprout",
+                "weepinbell",
+                "victreebel"
+            ]
         },
         {
             "name": "tentacool",
-            "url": "https://pokeapi.co/api/v2/pokemon/72/"
+            "id": 72,
+            "height": 9,
+            "weight": 455,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
+            "types": [
+                "water",
+                "poison"
+            ],
+            "abilities": [
+                "clear-body",
+                "liquid-ooze",
+                "rain-dish"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/72.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/72.ogg"
+            },
+            "evolutionChains": [
+                "tentacool",
+                "tentacruel"
+            ]
         },
         {
             "name": "tentacruel",
-            "url": "https://pokeapi.co/api/v2/pokemon/73/"
+            "id": 73,
+            "height": 16,
+            "weight": 550,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
+            "types": [
+                "water",
+                "poison"
+            ],
+            "abilities": [
+                "clear-body",
+                "liquid-ooze",
+                "rain-dish"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/73.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/73.ogg"
+            },
+            "evolutionChains": [
+                "tentacool",
+                "tentacruel"
+            ]
         },
         {
             "name": "geodude",
-            "url": "https://pokeapi.co/api/v2/pokemon/74/"
+            "id": 74,
+            "height": 4,
+            "weight": 200,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
+            "types": [
+                "rock",
+                "ground"
+            ],
+            "abilities": [
+                "rock-head",
+                "sturdy",
+                "sand-veil"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/74.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/74.ogg"
+            },
+            "evolutionChains": [
+                "geodude",
+                "graveler",
+                "golem"
+            ]
         },
         {
             "name": "graveler",
-            "url": "https://pokeapi.co/api/v2/pokemon/75/"
+            "id": 75,
+            "height": 10,
+            "weight": 1050,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
+            "types": [
+                "rock",
+                "ground"
+            ],
+            "abilities": [
+                "rock-head",
+                "sturdy",
+                "sand-veil"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/75.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/75.ogg"
+            },
+            "evolutionChains": [
+                "geodude",
+                "graveler",
+                "golem"
+            ]
         },
         {
             "name": "golem",
-            "url": "https://pokeapi.co/api/v2/pokemon/76/"
+            "id": 76,
+            "height": 14,
+            "weight": 3000,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
+            "types": [
+                "rock",
+                "ground"
+            ],
+            "abilities": [
+                "rock-head",
+                "sturdy",
+                "sand-veil"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/76.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/76.ogg"
+            },
+            "evolutionChains": [
+                "geodude",
+                "graveler",
+                "golem"
+            ]
         },
         {
             "name": "ponyta",
-            "url": "https://pokeapi.co/api/v2/pokemon/77/"
+            "id": 77,
+            "height": 10,
+            "weight": 300,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
+            "types": [
+                "fire"
+            ],
+            "abilities": [
+                "run-away",
+                "flash-fire",
+                "flame-body"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/77.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/77.ogg"
+            },
+            "evolutionChains": [
+                "ponyta",
+                "rapidash"
+            ]
         },
         {
             "name": "rapidash",
-            "url": "https://pokeapi.co/api/v2/pokemon/78/"
+            "id": 78,
+            "height": 17,
+            "weight": 950,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
+            "types": [
+                "fire"
+            ],
+            "abilities": [
+                "run-away",
+                "flash-fire",
+                "flame-body"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/78.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/78.ogg"
+            },
+            "evolutionChains": [
+                "ponyta",
+                "rapidash"
+            ]
         },
         {
             "name": "slowpoke",
-            "url": "https://pokeapi.co/api/v2/pokemon/79/"
+            "id": 79,
+            "height": 12,
+            "weight": 360,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
+            "types": [
+                "water",
+                "psychic"
+            ],
+            "abilities": [
+                "oblivious",
+                "own-tempo",
+                "regenerator"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/79.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/79.ogg"
+            },
+            "evolutionChains": [
+                "slowpoke",
+                "slowbro"
+            ]
         },
         {
             "name": "slowbro",
-            "url": "https://pokeapi.co/api/v2/pokemon/80/"
+            "id": 80,
+            "height": 16,
+            "weight": 785,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
+            "types": [
+                "water",
+                "psychic"
+            ],
+            "abilities": [
+                "oblivious",
+                "own-tempo",
+                "regenerator"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/80.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/80.ogg"
+            },
+            "evolutionChains": [
+                "slowpoke",
+                "slowbro"
+            ]
         },
         {
             "name": "magnemite",
-            "url": "https://pokeapi.co/api/v2/pokemon/81/"
+            "id": 81,
+            "height": 3,
+            "weight": 60,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
+            "types": [
+                "electric",
+                "steel"
+            ],
+            "abilities": [
+                "magnet-pull",
+                "sturdy",
+                "analytic"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/81.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/81.ogg"
+            },
+            "evolutionChains": [
+                "magnemite",
+                "magneton",
+                "magnezone"
+            ]
         },
         {
             "name": "magneton",
-            "url": "https://pokeapi.co/api/v2/pokemon/82/"
+            "id": 82,
+            "height": 10,
+            "weight": 600,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
+            "types": [
+                "electric",
+                "steel"
+            ],
+            "abilities": [
+                "magnet-pull",
+                "sturdy",
+                "analytic"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/82.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/82.ogg"
+            },
+            "evolutionChains": [
+                "magnemite",
+                "magneton",
+                "magnezone"
+            ]
         },
         {
             "name": "farfetchd",
-            "url": "https://pokeapi.co/api/v2/pokemon/83/"
+            "id": 83,
+            "height": 8,
+            "weight": 150,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
+            "types": [
+                "normal",
+                "flying"
+            ],
+            "abilities": [
+                "keen-eye",
+                "inner-focus",
+                "defiant"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/83.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/83.ogg"
+            },
+            "evolutionChains": [
+                "farfetchd",
+                "sirfetchd"
+            ]
         },
         {
             "name": "doduo",
-            "url": "https://pokeapi.co/api/v2/pokemon/84/"
+            "id": 84,
+            "height": 14,
+            "weight": 392,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
+            "types": [
+                "normal",
+                "flying"
+            ],
+            "abilities": [
+                "run-away",
+                "early-bird",
+                "tangled-feet"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/84.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/84.ogg"
+            },
+            "evolutionChains": [
+                "doduo",
+                "dodrio"
+            ]
         },
         {
             "name": "dodrio",
-            "url": "https://pokeapi.co/api/v2/pokemon/85/"
+            "id": 85,
+            "height": 18,
+            "weight": 852,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
+            "types": [
+                "normal",
+                "flying"
+            ],
+            "abilities": [
+                "run-away",
+                "early-bird",
+                "tangled-feet"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/85.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/85.ogg"
+            },
+            "evolutionChains": [
+                "doduo",
+                "dodrio"
+            ]
         },
         {
             "name": "seel",
-            "url": "https://pokeapi.co/api/v2/pokemon/86/"
+            "id": 86,
+            "height": 11,
+            "weight": 900,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
+            "types": [
+                "water"
+            ],
+            "abilities": [
+                "thick-fat",
+                "hydration",
+                "ice-body"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/86.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/86.ogg"
+            },
+            "evolutionChains": [
+                "seel",
+                "dewgong"
+            ]
         },
         {
             "name": "dewgong",
-            "url": "https://pokeapi.co/api/v2/pokemon/87/"
+            "id": 87,
+            "height": 17,
+            "weight": 1200,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
+            "types": [
+                "water",
+                "ice"
+            ],
+            "abilities": [
+                "thick-fat",
+                "hydration",
+                "ice-body"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/87.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/87.ogg"
+            },
+            "evolutionChains": [
+                "seel",
+                "dewgong"
+            ]
         },
         {
             "name": "grimer",
-            "url": "https://pokeapi.co/api/v2/pokemon/88/"
+            "id": 88,
+            "height": 9,
+            "weight": 300,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
+            "types": [
+                "poison"
+            ],
+            "abilities": [
+                "stench",
+                "sticky-hold",
+                "poison-touch"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/88.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/88.ogg"
+            },
+            "evolutionChains": [
+                "grimer",
+                "muk"
+            ]
         },
         {
             "name": "muk",
-            "url": "https://pokeapi.co/api/v2/pokemon/89/"
+            "id": 89,
+            "height": 12,
+            "weight": 300,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
+            "types": [
+                "poison"
+            ],
+            "abilities": [
+                "stench",
+                "sticky-hold",
+                "poison-touch"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/89.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/89.ogg"
+            },
+            "evolutionChains": [
+                "grimer",
+                "muk"
+            ]
         },
         {
             "name": "shellder",
-            "url": "https://pokeapi.co/api/v2/pokemon/90/"
+            "id": 90,
+            "height": 3,
+            "weight": 40,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
+            "types": [
+                "water"
+            ],
+            "abilities": [
+                "shell-armor",
+                "skill-link",
+                "overcoat"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/90.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/90.ogg"
+            },
+            "evolutionChains": [
+                "shellder",
+                "cloyster"
+            ]
         },
         {
             "name": "cloyster",
-            "url": "https://pokeapi.co/api/v2/pokemon/91/"
+            "id": 91,
+            "height": 15,
+            "weight": 1325,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
+            "types": [
+                "water",
+                "ice"
+            ],
+            "abilities": [
+                "shell-armor",
+                "skill-link",
+                "overcoat"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/91.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/91.ogg"
+            },
+            "evolutionChains": [
+                "shellder",
+                "cloyster"
+            ]
         },
         {
             "name": "gastly",
-            "url": "https://pokeapi.co/api/v2/pokemon/92/"
+            "id": 92,
+            "height": 13,
+            "weight": 1,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
+            "types": [
+                "ghost",
+                "poison"
+            ],
+            "abilities": [
+                "levitate"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/92.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/92.ogg"
+            },
+            "evolutionChains": [
+                "gastly",
+                "haunter",
+                "gengar"
+            ]
         },
         {
             "name": "haunter",
-            "url": "https://pokeapi.co/api/v2/pokemon/93/"
+            "id": 93,
+            "height": 16,
+            "weight": 1,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
+            "types": [
+                "ghost",
+                "poison"
+            ],
+            "abilities": [
+                "levitate"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/93.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/93.ogg"
+            },
+            "evolutionChains": [
+                "gastly",
+                "haunter",
+                "gengar"
+            ]
         },
         {
             "name": "gengar",
-            "url": "https://pokeapi.co/api/v2/pokemon/94/"
+            "id": 94,
+            "height": 15,
+            "weight": 405,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
+            "types": [
+                "ghost",
+                "poison"
+            ],
+            "abilities": [
+                "cursed-body"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/94.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/94.ogg"
+            },
+            "evolutionChains": [
+                "gastly",
+                "haunter",
+                "gengar"
+            ]
         },
         {
             "name": "onix",
-            "url": "https://pokeapi.co/api/v2/pokemon/95/"
+            "id": 95,
+            "height": 88,
+            "weight": 2100,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+            "types": [
+                "rock",
+                "ground"
+            ],
+            "abilities": [
+                "rock-head",
+                "sturdy",
+                "weak-armor"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/95.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/95.ogg"
+            },
+            "evolutionChains": [
+                "onix",
+                "steelix"
+            ]
         },
         {
             "name": "drowzee",
-            "url": "https://pokeapi.co/api/v2/pokemon/96/"
+            "id": 96,
+            "height": 10,
+            "weight": 324,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
+            "types": [
+                "psychic"
+            ],
+            "abilities": [
+                "insomnia",
+                "forewarn",
+                "inner-focus"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/96.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/96.ogg"
+            },
+            "evolutionChains": [
+                "drowzee",
+                "hypno"
+            ]
         },
         {
             "name": "hypno",
-            "url": "https://pokeapi.co/api/v2/pokemon/97/"
+            "id": 97,
+            "height": 16,
+            "weight": 756,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
+            "types": [
+                "psychic"
+            ],
+            "abilities": [
+                "insomnia",
+                "forewarn",
+                "inner-focus"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/97.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/97.ogg"
+            },
+            "evolutionChains": [
+                "drowzee",
+                "hypno"
+            ]
         },
         {
             "name": "krabby",
-            "url": "https://pokeapi.co/api/v2/pokemon/98/"
+            "id": 98,
+            "height": 4,
+            "weight": 65,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
+            "types": [
+                "water"
+            ],
+            "abilities": [
+                "hyper-cutter",
+                "shell-armor",
+                "sheer-force"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/98.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/98.ogg"
+            },
+            "evolutionChains": [
+                "krabby",
+                "kingler"
+            ]
         },
         {
             "name": "kingler",
-            "url": "https://pokeapi.co/api/v2/pokemon/99/"
+            "id": 99,
+            "height": 13,
+            "weight": 600,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
+            "types": [
+                "water"
+            ],
+            "abilities": [
+                "hyper-cutter",
+                "shell-armor",
+                "sheer-force"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/99.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/99.ogg"
+            },
+            "evolutionChains": [
+                "krabby",
+                "kingler"
+            ]
         },
         {
             "name": "voltorb",
-            "url": "https://pokeapi.co/api/v2/pokemon/100/"
+            "id": 100,
+            "height": 5,
+            "weight": 104,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
+            "types": [
+                "electric"
+            ],
+            "abilities": [
+                "soundproof",
+                "static",
+                "aftermath"
+            ],
+            "cries": {
+                "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/100.ogg",
+                "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/100.ogg"
+            },
+            "evolutionChains": [
+                "voltorb",
+                "electrode"
+            ]
         }
     ]
 }
